@@ -8,7 +8,6 @@ partir do arquivo: produtos.json.</p>
 
 <dl>
 <dt>Requisitos funcionais:</dt>	
-<dt>Requisitos funcionais:</dt>
 <dd>Devem ser listados somentes os produtos ativos;</dd>
 <dd>Fazer uma rota que ordena todos produtos por: quantidade (decrescente);</dd>
 <dd>Fazer uma rota que ordena todos produtos por: nome_produto (ordem alfabética);</dd>
