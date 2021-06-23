@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "nome_produto": "Samsung A51",
+      "quantidade": 20,
+      "tipo": "smartphone",
+      "ativo": true
+    },
+    {
+        "id": 2,
+        "nome_produto": "WebCam FullHD",
+        "quantidade": 145,
+        "tipo": "periferico",
+        "ativo": true
+    },
+    {
+        "id": 3,
+        "nome_produto": "Mouse Gamer",
+        "quantidade": 102,
+        "tipo": "periferico",
+        "ativo": true
+    },
+    {
+        "id": 4,
+        "nome_produto": "Microfone de Lapela",
+        "quantidade": 90,
+        "tipo": "audio e video",
+        "ativo": false
+    },
+    {
+        "id": 5,
+        "nome_produto": "Roteador Wireless",
+        "quantidade": 393,
+        "tipo": "redes",
+        "ativo": true
+    },
+    {
+        "id": 6,
+        "nome_produto": "Teclado Gamer",
+        "quantidade": 70,
+        "tipo": "periferico",
+        "ativo": true
+    },
+    {
+        "id": 7,
+        "nome_produto": "Conector RJ45",
+        "quantidade": 430,
+        "tipo": "rede",
+        "ativo": true
+    },
+    {
+        "id": 8,
+        "nome_produto": "HeadSet",
+        "quantidade": 102,
+        "tipo": "periferico",
+        "ativo": true
+    }
+]
