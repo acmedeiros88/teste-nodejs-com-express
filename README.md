@@ -1,10 +1,9 @@
-<h1 align="center">Teste utilizando Node.js e Express no back-end</h1>
+<h1>Teste utilizando Node.js e Express no back-end</h1>
 
-<p align="center">Utilizando Node.js e Express retorne uma lista dos produtos com os seguintes
+<p align="justify">Utilizando Node.js e Express retorne uma lista dos produtos com os seguintes
 atributos: nome_produto, quantidade, tipo e ativo, os produtos devem ser lidos a
 partir do arquivo: produtos.json.</p>
-
-<h4>UTILIZAR NODE COM EXPRESS NO BACK-END (API)</h4>
+<br/>
 
 <dl>
 <dt>Requisitos funcionais:</dt>	
@@ -13,15 +12,16 @@ partir do arquivo: produtos.json.</p>
 <dd>Fazer uma rota que ordena todos produtos por: nome_produto (ordem alfabética);</dd>
 <dd>Fazer uma rota que ordena todos produtos por tipo: “periferico”.</dd>
 </dl>
-
+<br/>
 <h4>Front-End em React (Opcional, Não obrigatório mas importante)</h4>
 
 <p>Fazer uma tabela onde listará os produtos a partir da rota de ordenação por quantidade (decrescente) da API (Back-End).</p>
+<br/>
 
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Node.js](https://nodejs.org/en/).
+- [Node.js](https://nodejs.org/en/).
 
 ### Rodando o Back-End (servidor)
 
