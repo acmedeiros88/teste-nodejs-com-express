@@ -1,22 +1,23 @@
-<h1>Teste utilizando Node.js e Express no back-end</h1>
+# Teste utilizando Node.js e Express no back-end
 
 <p align="justify">Utilizando Node.js e Express retorne uma lista dos produtos com os seguintes
 atributos: nome_produto, quantidade, tipo e ativo, os produtos devem ser lidos a
 partir do arquivo: produtos.json.</p>
 <br/>
 
-
-#### Requisitos funcionais:
+### Requisitos funcionais:
 - Devem ser listados somentes os produtos ativos;
 - Fazer uma rota que ordena todos produtos por: quantidade (decrescente);
 - Fazer uma rota que ordena todos produtos por: nome_produto (ordem alfabética);
 - Fazer uma rota que ordena todos produtos por tipo: “periferico”.
-
 <br/>
-#### Front-End em React (Opcional, Não obrigatório mas importante)
+
+### Front-End em React (Opcional, Não obrigatório mas importante)
 
 <p>Fazer uma tabela onde listará os produtos a partir da rota de ordenação por quantidade (decrescente) da API (Back-End).</p>
 <br/>
+
+# Demonstração do teste
 
 ### Pré-requisitos
 
