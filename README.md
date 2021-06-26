@@ -21,13 +21,17 @@ partir do arquivo: produtos.json.</p>
 
 ### Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-- [Node.js](https://nodejs.org/en/).
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:  
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 
 ### Rodando o Back-End (servidor)
 
 ```bash
-# Abre o terminal/cmd na pasta do projeto;
+# Clone este repositório
+$ git clone <https://github.com/acmedeiros88/teste-nodejs-com-express.git>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd teste-nodejs-com-express
 
 # Instale as dependências;
 $ npm i
@@ -35,28 +39,29 @@ $ npm i
 # Execute a aplicação;
 $ npm start
 
-# O servidor inciará na porta:3001.
-```
-### REST API
-
-#### GET lista de produtos
-```
-http://localhost:3001/produtos
+# O servidor inciará na porta:3001 - acesse <http://localhost:3001/produtos>  
 ```
 
-#### GET lista de produtos ativo ordenado por: quantidade (decrescente)
+### API Produtos
+
+#### Listar todos os produtos
 ```
-http://localhost:3001/produtos/ativo?sort=quantidade
+GET /produtos
 ```
 
-#### GET lista de produtos ativo ordenado por: nome_produto (ordem alfabética)
+#### Listar todos os produtos ativo ordenado por: quantidade (decrescente)
 ```
-http://localhost:3001/produtos/ativo?sort=nome
+GET /produtos/ativo?sort=quantidade:desc
 ```
 
-#### GET lista de produtos ativo ordenado por: tipo="periferico"
+#### Listar todos os produtos ativo ordenado por: nome_produto (ordem alfabética)
 ```
-http://localhost:3001/produtos/ativo?tipo=periferico
+GET /produtos/ativo?sort=nome
+```
+
+#### Listar todos os produtos ativo ordenado por: tipo="periferico"
+```
+GET /produtos/ativo?tipo=periferico
 ```
 
 ### Tecnologias

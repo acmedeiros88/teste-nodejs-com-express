@@ -10,9 +10,7 @@
   "type": "module",
   "author": "Adriano Medeiros",
   "license": "ISC",
-  "devDependencies": {
-    
-  },
+  "devDependencies": {},
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
