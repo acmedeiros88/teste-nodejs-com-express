@@ -1,4 +1,4 @@
-# Teste utilizando Node.js e Express no back-end
+# Teste utilizando Node.js e Express no Back-End
 
 <p align="justify">Utilizando Node.js e Express retorne uma lista dos produtos com os seguintes
 atributos: nome_produto, quantidade, tipo e ativo, os produtos devem ser lidos a
@@ -62,6 +62,24 @@ GET /produtos/ativo?sort=nome
 #### Listar todos os produtos ativo ordenado por: tipo="periferico"
 ```
 GET /produtos/ativo?tipo=periferico
+```
+
+### Rodando a aplicação web (Front-End)
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/acmedeiros88/teste-front-end-react.git>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd teste-front-end-react
+
+# Instale as dependências;
+$ npm i
+
+# Execute a aplicação;
+$ npm start
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>  
 ```
 
 ### Tecnologias
