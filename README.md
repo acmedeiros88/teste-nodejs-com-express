@@ -28,7 +28,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/acmedeiros88/teste-nodejs-com-express.git>
+$ git clone https://github.com/acmedeiros88/teste-nodejs-com-express.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd teste-nodejs-com-express
