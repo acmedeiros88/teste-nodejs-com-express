@@ -68,7 +68,7 @@ GET /produtos/ativo?tipo=periferico
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/acmedeiros88/teste-front-end-react.git>
+$ git clone https://github.com/acmedeiros88/teste-front-end-react.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd teste-front-end-react
