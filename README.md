@@ -39,7 +39,7 @@ $ npm i
 # Execute a aplicação;
 $ npm start
 
-# O servidor inciará na porta:3001 - acesse <http://localhost:3001/produtos>  
+# O servidor iniciará na porta:3001 - acesse <http://localhost:3001/produtos>  
 ```
 
 ### API Produtos
@@ -79,7 +79,7 @@ $ npm i
 # Execute a aplicação;
 $ npm start
 
-# O servidor inciará na porta:3000 - acesse <http://localhost:3000>  
+# O servidor iniciará na porta:3000 - acesse <http://localhost:3000>  
 ```
 
 ### Tecnologias
